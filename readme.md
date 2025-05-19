@@ -18,6 +18,7 @@ Result: http://devv-ops.s3-website.eu-north-1.amazonaws.com/dashboard
 
 ## 📁 Project Structure
 
+```bash
 devops-dashboard/
 ├── client/
 │ ├── src/
@@ -46,6 +47,7 @@ devops-dashboard/
 │ ├── main.py
 │ └── requirements.txt
 └── README.md
+```
 
 ---
 
