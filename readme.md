@@ -21,33 +21,31 @@ Result: http://devv-ops.s3-website.eu-north-1.amazonaws.com/dashboard
 devops-dashboard/
 ├── client/
 │ ├── src/
-│   ├── api/
-│       ├── cicd.ts
-│       ├── logs.ts
-│       ├── services.ts
-│   ├── components/
-│       ├── CICDStatus.tsx
-│       ├── LogViewer.tsx
-│       ├── ProtectedRoute.tsx
-│       ├── Sidebar.ts
-│   ├── pages/
-│       ├── Dashboard.tsx
-│       ├── Login.tsx
-│   ├── App.css
-│   └── App.tsx
-│   └── index.css
-│   └── main.tsx
+│ │ ├── api/
+│ │ │ ├── cicd.ts
+│ │ │ ├── logs.ts
+│ │ │ └── services.ts
+│ │ ├── components/
+│ │ │ ├── CICDStatus.tsx
+│ │ │ ├── LogViewer.tsx
+│ │ │ ├── ProtectedRoute.tsx
+│ │ │ └── Sidebar.ts
+│ │ ├── pages/
+│ │ │ ├── Dashboard.tsx
+│ │ │ └── Login.tsx
+│ │ ├── App.css
+│ │ ├── App.tsx
+│ │ ├── index.css
+│ │ └── main.tsx
 ├── server/
-│ └── routers/
-│       ├── auth.py
-│       ├── ci_cd.py
-│       ├── logs.py
-│       ├── services.py
-│ └── auth.py
-│ └── main.py
+│ ├── routers/
+│ │ ├── auth.py
+│ │ ├── ci_cd.py
+│ │ ├── logs.py
+│ │ └── services.py
+│ ├── main.py
 │ └── requirements.txt
 └── README.md
-
 
 ---
 
