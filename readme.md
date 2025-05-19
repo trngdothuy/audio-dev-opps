@@ -118,6 +118,9 @@ uvicorn main:app --host 0.0.0.0 --port 8000
 or nohup uvicorn main:app --host 0.0.0.0 --port 8000 &
 ```
 
+## API Endpoints
 
-
-
+- `POST /auth/token` - Login
+- `GET /api/services` - List Services
+- `GET /api/logs/{service_name}` - Get Service Logs
+- `GET /api/ci-cd` - Get CI/CD Deployments Status
