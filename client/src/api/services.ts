@@ -8,7 +8,7 @@ export const fetchServices = async (): Promise<any> => {
 
     console.log(token)
 
-    const res = await fetch('http://localhost:8000/api/services', {
+    const res = await fetch('http://52.47.113.237:8000/api/services', {
         method: "GET",
         headers: {
             Authorization: `Bearer ${token}`,

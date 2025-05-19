@@ -4,7 +4,7 @@ export const fetchLogsForService = async (serviceName: string): Promise<any> => 
 
     const token = localStorage.getItem('token');
 
-    const res = await fetch(`http://localhost:8000/api/logs/${serviceName}`, {
+    const res = await fetch(`http://52.47.113.237:8000/api/logs/${serviceName}`, {
         headers: {
             Authorization: `Bearer ${token}`,
         },
